@@ -1,6 +1,5 @@
 import React from "react";
 import Histogram from "../components/charts/Histogram";
-import BarChart from "../components/charts/BarChart";
 import LineChart from "../components/charts/LineChart";
 import Heatmap from "../components/charts/Heatmap";
 import {Col, Container, Row} from "reactstrap";
@@ -23,11 +22,6 @@ function Overview() {
     const histogramYAxisTitle = "Count";
 
     // Bar chart data and properties
-    const barXData = ["Category A", "Category B", "Category C", "Category D"];
-    const barYData = [12, 20, 15, 23];
-    const barTitle = "Bar Chart";
-    const barXAxisTitle = "Category";
-    const barYAxisTitle = "Value";
 
     const xValues = ["A", "B", "C", "D", "E"];
     const yValues = ["W", "X", "Y", "Z"];
